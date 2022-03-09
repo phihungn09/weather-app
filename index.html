@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="icon" href="./img/favpng_weather-forecasting-vivo-android-climate.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./font/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="card__search">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button type="button" class="btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="card__weather loading">
+      <h2 class="city"></h2>
+      <h3>Today</h3>
+      <h1 class="temp"></h1>
+      <div class="flex">
+        <img src="" alt="" class="momo" />
+        <div class="description"></div>
+      </div>
+      <div class="humidity"></div>
+      <div class="wind"></div>
+      <div class="footer">
+        <a href="http://www.facebook.com" target="_blank">
+          <i class="fa-brands fa-facebook" ></i>
+        </a>
+        <a href="http://instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram" ></i>
+        </a>
+        <a href="http://github.com" target="_blank">
+          <i class="fa-brands fa-github" ></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+<!-- <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD2ScXY_NVJ06Ym6I1Wc72hmnhQX6GJoYg",
+    authDomain: "weatherapp-accae.firebaseapp.com",
+    databaseURL: "https://weatherapp-accae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "weatherapp-accae",
+    storageBucket: "weatherapp-accae.appspot.com",
+    messagingSenderId: "948428231740",
+    appId: "1:948428231740:web:b5cfe040a1570c8c4d5f39",
+    measurementId: "G-L1VDKWMVK5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script> -->
+</html>
